@@ -3,9 +3,8 @@
 Simple dbms based on the python qt. At the time of creation it wasn't supposed to be a published or showed, thus it contains 0 supplement information about the code itself.
 
 
-
 # Short guide to Doccano
-> [Polska wersja](#przygotowaniedoccano)
+> [Polska wersja](#przygotowanie-doccano)
 
 
 ##  Setting up the Doccano
@@ -115,7 +114,7 @@ Otwórz [http://localhost:8000/](http://localhost:8000/).
 - Kliknij  `Drop files here...`i wybierz przygotowany zestaw danych w formacie `.jsonl`. (Może to być plik otrzymany z SoftMatcher jako wynik).
 - Kliknij  `Import`.
 - 
-### Adding Annotators  
+### Dodawanie adnotatorów
 -  Otwórz  http://127.0.0.1:8000/admin/auth/user/
 - Zaloguj się jako administrator (poświadczenia takie same jak tutaj `doccano createuser --username admin --password pass` , więc na przykład `admin pass` ).
 - Po prawej stronie znajduje się przycisk `Create user`.
@@ -125,7 +124,7 @@ Otwórz [http://localhost:8000/](http://localhost:8000/).
 - Przejdź do `Members` na lewym panelu strony.
 - `Add` -> w `User Search Api` wybierz login nowo utworzonego użytkownika wybierz rolę jako `Annotator`.
 
-### Annotating of the Document 
+### Adnotacja dokumentu
 - Otwórz   http://127.0.0.1:8000/
 -  Kliknij  `Login` .
 - Użyj podanych danych logowania, aby się zalogować.
